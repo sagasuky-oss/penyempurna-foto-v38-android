@@ -1,0 +1,15 @@
+plugins { id 'com.android.application'; id 'org.jetbrains.kotlin.android' }
+
+android {
+    namespace 'id.termax.penyempurnafoto'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'id.termax.penyempurnafoto'
+        minSdk 23
+        targetSdk 35
+        versionCode 38
+        versionName '38.0-OptimasiHP'
+    }
+}
+
+dependencies { implementation 'androidx.activity:activity-ktx:1.9.3' }
